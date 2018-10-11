@@ -1,0 +1,20 @@
+{
+  "name": "vuemongologinsystem",
+  "version": "1.0.0",
+  "description": "Fullstack Vue and Express App with MongoDb and Google/Facebook Login System",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "Daniel Adamczyk",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
